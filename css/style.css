@@ -1,0 +1,233 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+.w50{
+	float: left;
+	width: 50%;
+}
+
+body{
+	
+}
+
+.clear{
+	clear: both;
+}
+
+.header{
+	height: 640px;
+	background: url(../img/banner.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.navbar{
+	color: white;
+}
+
+.navbar ul{
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 40px;
+}
+
+.navbar ul li{
+	float: left;
+	margin-right: 80px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar li a{
+	color: white;
+}
+
+.navbar ul li a:hover{
+	color: #4682B4;
+	transition: 3s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.titulo{
+	position: absolute;
+	top: 280px;
+	left: 10%;
+}
+
+.titulo h1, h2{
+	text-transform: uppercase;
+}
+
+.titulo h1{
+	font-size: 35px;
+	color: white;
+	
+}
+
+.titulo h2{
+	font-size: 28px;
+	color: red;
+	margin-left: 20%;
+}
+
+.sobre{
+	height: 440px;
+	background: white;
+}
+
+.sobre h2{
+	text-align: center;
+	margin-top: 50px;
+	color: #e1e0e0;
+	text-transform: uppercase;
+	font-size: 40pt;
+}
+
+.sobre .coluna-foto{
+	width: 35%;
+	float: left;
+}
+
+.sobre img{
+	width: 60%;
+	border-radius: 50%;
+	margin: 40px 0 0 50px;
+}
+
+.sobre h3{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-left: 55px;
+	margin-top: 30px;
+}
+
+.sobre .vermelho{
+	margin: 10px 0 50px 90px;
+	color: red;
+}
+
+.coluna-sobre{
+	float: left;
+	margin-top: 140px;
+	width: 65%;
+}
+
+.servicos{
+	height: 250px;
+	background: #322e2e;
+}
+
+.servicos ul {
+	margin-top: 65px;
+	list-style: none;
+}
+
+.servicos ul li{
+	margin-top: 40px;
+	margin-left: 40px;
+	color: #C0C0C0;
+}
+
+}
+
+.linguagens{
+	height: 450px;
+}
+
+.linguagens h2{
+	text-transform: uppercase;
+	text-align: center;
+	color: #e1e0e0;
+	margin-top: 40px;
+}
+
+.linguagens img{
+	width: 100px;
+	margin-top: 50px;
+	margin-bottom: 90px;
+	margin-left: 80px;
+}
+
+.linguagens .jquery, .linguagens .php, .linguagens .mysql{
+	width: 160px;
+}
+
+
+.rodape{
+	background: #322e2e;
+	height: 220px;	
+}
+
+.rodape footer{
+	color: #808080;
+	margin-top: 70px;
+}
+
+.rodape h3{
+	font-size: 16px;
+	color: white;
+}
+
+.rodape .vermelho{
+	color: red;
+}
+
+.rodape .margin{
+	margin-top: 60px;
+}
+
+.rodape li{
+	list-style: none;
+
+}
+
+.rodape li a{
+	color: #e1e0e0;
+	margin-top: 60px;
+}
+
+.rodape .navbar{
+	color: #808080;
+}
+
+.rodape .contato{
+	color: white;
+}
+
+.rodape .contato ul, .rodape .redes-sociais ul{
+	margin-top: 10px;
+	color: #808080;
+}
+
+.rodape .redes-sociais li a i{
+	
+}
+
+.rodape .contato h3, .rodape .redes-sociais h3{
+	margin-top: 40px;
+	margin-left: 40px;
+	color: #C0C0C0;
+	
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
